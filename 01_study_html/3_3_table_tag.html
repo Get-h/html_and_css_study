@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Tag</title>
+    <style>
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 12px;
+      }
+      .col1 {
+        width: 100px;
+      }
+      .col2 {
+        width: 80px;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Table 기본</h1>
+    <table>
+      <caption>
+        <strong>프로필 테이블</strong>
+      </caption>
+
+      <tr>
+        <th>이름</th>
+        <th>취미</th>
+        <th>특기</th>
+      </tr>
+      <tr>
+        <td>이권도</td>
+        <td>폭행</td>
+        <td>납치</td>
+      </tr>
+      <tr>
+        <td>이궘도</td>
+        <td>이터널리턴</td>
+        <td>구마유시따라하기</td>
+      </tr>
+    </table>
+    <hr />
+
+    <h1>Table Gruop Tag</h1>
+    <table>
+      <caption>
+        <i>실험체별 점수</i>
+      </caption>
+      <colgroup>
+        <col class="col1" />
+        <col class="col2" />
+        <col class="col3" />
+        <col class="col4" />
+        <col class="col5" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>나이</th>
+          <th>이름</th>
+          <th>엠마</th>
+          <th>아이솔</th>
+          <th>버니스</th>
+          <th>로지</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">63세</td>
+          <td>이권도</td>
+          <td>3</td>
+          <td>5</td>
+          <td>2</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>안진형</td>
+          <td>100</td>
+          <td>100</td>
+          <td>200</td>
+          <td>100</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
