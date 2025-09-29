@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    /* 클래스를 상속받아서 나만의 클래스를 만드는 것과 비슷함. 재사용성이 필요할 경우  */
+    h1.test {
+      margin-bottom: 0;
+    }
+
+    /* 특정 태그 안에서만 적용시키고 싶을 경우 */
+    .profile h1 {
+      margin-bottom: 0;
+    }
+  </style>
+
+  <body>
+    <header></header>
+    <div>
+      <div class="profile">
+        <h1>이상혁</h1>
+        <!-- 최근 수정된 시각을 받아와서 출력해야 하는 부분임. -->
+        <div>최근 수정 시각:2025-09-25 23:40:34</div>
+      </div>
+    </div>
+
+    <nav></nav>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
